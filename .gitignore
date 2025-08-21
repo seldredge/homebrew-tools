@@ -1,0 +1,134 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.nova/
+
+# Homebrew Specific
+*.bottle.*
+*.bottle.tar.gz
+.brew_home
+/Library/
+/bin/
+/etc/
+/include/
+/lib/
+/opt/
+/sbin/
+/share/
+/var/
+
+# Testing and Temporary Files
+/test/
+/tests/
+/tmp/
+/temp/
+*.tmp
+*.temp
+*.log
+*.bak
+*.cache
+
+# Build Artifacts
+/build/
+/dist/
+*.tar.gz
+*.zip
+*.dmg
+*.pkg
+
+# Ruby/Homebrew Development
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+.rvmrc
+.ruby-version
+.ruby-gemset
+
+# Documentation
+/doc/
+/rdoc/
+/.yardoc/
+/_yardoc/
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Backup Files
+*.backup
+*.old
+*.orig
+
+# Custom Scripts (local only)
+/local-scripts/
+/private/
+/scratch/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Generated Files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Homebrew Tap Testing
+/homebrew-testbot/
+/.github-debug/
+
+# IDE Project Files
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# Keep these files
+!.gitignore
+!.github/
+!Formula/
+!README.md
+!LICENSE
