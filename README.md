@@ -3,7 +3,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Homebrew](https://img.shields.io/badge/Homebrew-Tap-orange.svg)](https://brew.sh)
 [![macOS](https://img.shields.io/badge/macOS-12%2B-blue.svg)](https://www.apple.com/macos)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/homebrew-tools?style=social)](https://github.com/yourusername/homebrew-tools)
+[![GitHub Stars](https://img.shields.io/github/stars/seldredge/homebrew-tools?style=social)](https://github.com/seldredge/homebrew-tools)
 
 A collection of powerful, efficient Homebrew formulas for macOS productivity tools and system utilities. Each tool is carefully crafted to solve real-world problems for developers and power users.
 
@@ -11,13 +11,13 @@ A collection of powerful, efficient Homebrew formulas for macOS productivity too
 
 ```bash
 # Add this tap to your Homebrew
-brew tap yourusername/tools
+brew tap seldredge/tools
 
 # Install a specific tool
 brew install diskanalyzer
 
 # Or install directly without tapping
-brew install yourusername/tools/diskanalyzer
+brew install seldredge/tools/diskanalyzer
 ```
 
 ## 📦 Available Tools
@@ -47,7 +47,7 @@ diskanalyzer -h           # Show help
 - 💡 Smart cleanup recommendations
 - 📈 Export reports in multiple formats
 
-[View Source](https://github.com/yourusername/diskanalyzer) | [Report Issues](https://github.com/yourusername/diskanalyzer/issues)
+[View Source](https://github.com/seldredge/diskanalyzer) | [Report Issues](https://github.com/seldredge/diskanalyzer/issues)
 
 ### 🚧 Coming Soon
 
@@ -61,23 +61,23 @@ diskanalyzer -h           # Show help
 ### Standard Installation
 ```bash
 # Add tap and install
-brew tap yourusername/tools
+brew tap seldredge/tools
 brew install diskanalyzer
 ```
 
 ### Direct Installation
 ```bash
 # Install without adding tap
-brew install yourusername/tools/diskanalyzer
+brew install seldredge/tools/diskanalyzer
 ```
 
 ### Install All Tools
 ```bash
 # Add tap
-brew tap yourusername/tools
+brew tap seldredge/tools
 
 # Install all available tools
-brew install $(brew search yourusername/tools/ | grep yourusername/tools/)
+brew install $(brew search seldredge/tools/ | grep seldredge/tools/)
 ```
 
 ## 📖 Usage Examples
@@ -150,8 +150,8 @@ Contributions are welcome! Here's how you can help:
 ```ruby
 class YourTool < Formula
   desc "Brief description of your tool"
-  homepage "https://github.com/yourusername/your-tool"
-  url "https://github.com/yourusername/your-tool/archive/refs/tags/v1.0.0.tar.gz"
+  homepage "https://github.com/seldredge/your-tool"
+  url "https://github.com/seldredge/your-tool/archive/refs/tags/v1.0.0.tar.gz"
   sha256 "SHA256_HASH_HERE"
   license "MIT"
   
@@ -168,14 +168,14 @@ end
 ### Reporting Issues
 
 Found a bug or have a suggestion? Please open an issue:
-- [Tap Issues](https://github.com/yourusername/homebrew-tools/issues) - For installation/formula problems
-- [Tool Issues](https://github.com/yourusername/diskanalyzer/issues) - For specific tool problems
+- [Tap Issues](https://github.com/seldredge/homebrew-tools/issues) - For installation/formula problems
+- [Tool Issues](https://github.com/seldredge/diskanalyzer/issues) - For specific tool problems
 
 ## 📊 Statistics
 
 | Tool | Version | Downloads | Last Updated |
 |------|---------|-----------|--------------|
-| diskanalyzer | 1.0.0 | ![Downloads](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/yourusername/diskanalyzer/releases/latest&query=$.assets[0].download_count&label=) | ![Updated](https://img.shields.io/github/release-date/yourusername/diskanalyzer) |
+| diskanalyzer | 1.0.0 | ![Downloads](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/repos/seldredge/diskanalyzer/releases/latest&query=$.assets[0].download_count&label=) | ![Updated](https://img.shields.io/github/release-date/seldredge/diskanalyzer) |
 
 ## 🔄 Updating Tools
 
@@ -187,7 +187,7 @@ brew update
 brew upgrade diskanalyzer
 
 # Upgrade all tools from this tap
-brew upgrade $(brew list | grep yourusername/tools/)
+brew upgrade $(brew list | grep seldredge/tools/)
 ```
 
 ## 🧪 Testing
@@ -235,13 +235,13 @@ Individual tools may have their own licenses - check each tool's repository for 
 
 ## 📮 Contact
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Issues**: [Create an issue](https://github.com/yourusername/homebrew-tools/issues)
-- **Discussions**: [Start a discussion](https://github.com/yourusername/homebrew-tools/discussions)
+- **GitHub**: [@seldredge](https://github.com/seldredge)
+- **Issues**: [Create an issue](https://github.com/seldredge/homebrew-tools/issues)
+- **Discussions**: [Start a discussion](https://github.com/seldredge/homebrew-tools/discussions)
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/homebrew-tools&type=Date)](https://star-history.com/#yourusername/homebrew-tools&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=seldredge/homebrew-tools&type=Date)](https://star-history.com/#seldredge/homebrew-tools&Date)
 
 ---
 
@@ -250,5 +250,5 @@ Individual tools may have their own licenses - check each tool's repository for 
 </p>
 
 <p align="center">
-  Made with 🍺 by <a href="https://github.com/yourusername">@yourusername</a>
+  Made with 🍺 by <a href="https://github.com/seldredge">@seldredge</a>
 </p>
